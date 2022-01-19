@@ -31,6 +31,14 @@ const Home = () => {
           </Head>
           <Filters />
           <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </Content>
       </div>
       <Footer />

@@ -7,6 +7,9 @@ export const Container = styled.div`
   height: 57px;
   padding: 0 30px;
   position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
   background: rgb(176, 89, 217);
   background: linear-gradient(
     90deg,
