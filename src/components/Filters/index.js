@@ -1,14 +1,34 @@
 import React from 'react'
-import { Container, Content } from './styles'
+import {
+  Container,
+  Head,
+  TitleButton,
+  Menu,
+  Content,
+  ButtonGroup
+} from './styles'
+import Checkbox from '../Checkbox'
+import Button from '../Button'
 
 const Filters = () => {
   return (
     <Container>
-      <Content>
-        <img src='../../../icons/filter.svg' alt='filters' />
-        <p>Filters</p>
-      </Content>
-      <img src='../../../icons/arrow-down.svg' alt='arrow-down' />
+      <Head active>
+        <TitleButton>
+          <img src='../../../icons/filter.svg' alt='filters' />
+          <p>Filters</p>
+        </TitleButton>
+        <img src='../../../icons/arrow-down.svg' alt='arrow-down' />
+      </Head>
+      <Menu>
+        <Content>
+          <Checkbox />
+          <ButtonGroup>
+            <Button>Clean</Button>
+            <Button>Apply</Button>
+          </ButtonGroup>
+        </Content>
+      </Menu>
     </Container>
   )
 }
