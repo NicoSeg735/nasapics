@@ -3,3 +3,5 @@ export const colors = {
   blue: '#0070F3',
   purple: '#B059D9'
 }
+
+// Ejemplo
